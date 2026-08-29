@@ -16,7 +16,7 @@ export const Route = createRootRoute({
         content:
           "P.S.C. Edilizia Moderna S.r.l. — impresa edile a Lissone (MB). Ristrutturazioni chiavi in mano, costruzioni, isolamenti, impianti e finiture in Monza e Brianza.",
       },
-      { name: "theme-color", content: "#161310" },
+      { name: "theme-color", content: "#0c1224" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
@@ -29,7 +29,7 @@ export const Route = createRootRoute({
       },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Outfit:wght@300;400;500;600&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@300;400;500;600&display=swap",
       },
       { rel: "manifest", href: "/__grok/manifest.webmanifest" },
       { rel: "apple-touch-icon", href: "/__grok/icon-180.png" },

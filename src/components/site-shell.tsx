@@ -51,7 +51,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
             : "bg-bg/95 text-fg shadow-[0_1px_0_0_var(--color-border)] backdrop-blur-sm",
         )}
       >
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-5 md:h-[4.5rem]">
+        <div className="mx-auto flex h-[4.5rem] max-w-6xl items-center justify-between gap-4 px-5 md:h-20">
           <Link to="/" aria-label="P.S.C. Edilizia Moderna — home">
             <Logo inverted={inverted} />
           </Link>
@@ -149,7 +149,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
       {!open ? (
         <a
           href={company.whatsapp}
-          className="fixed bottom-5 right-5 z-30 inline-flex h-12 items-center gap-2 rounded-full bg-primary px-4 text-sm font-medium text-primary-fg shadow-[0_8px_24px_rgba(26,23,20,0.18)] transition-transform duration-150 hover:opacity-90 active:scale-[0.96]"
+          className="fixed bottom-5 right-5 z-30 inline-flex h-12 items-center gap-2 rounded-full bg-primary px-4 text-sm font-medium text-primary-fg shadow-[0_8px_24px_rgba(12,18,36,0.22)] transition-transform duration-150 hover:opacity-90 active:scale-[0.96]"
           aria-label="Scrivi su WhatsApp"
         >
           <Phone className="size-4" />
@@ -165,7 +165,7 @@ function SiteFooter() {
     <footer className="border-t border-border bg-ink text-ink-fg">
       <div className="mx-auto grid max-w-6xl gap-12 px-5 py-16 md:grid-cols-12 md:py-20">
         <div className="md:col-span-5">
-          <Logo inverted />
+          <Logo inverted size="footer" />
           <p className="mt-6 max-w-sm text-sm leading-relaxed text-ink-fg/70">
             Impresa edile a Lissone. Costruzioni, ristrutturazioni chiavi in
             mano e finiture in Monza e Brianza. Oltre quarant’anni di cantiere.
@@ -250,7 +250,7 @@ export function PageHero({
 }) {
   return (
     <header className="border-b border-border bg-surface">
-      <div className="mx-auto max-w-6xl px-5 pb-14 pt-32 md:pb-20 md:pt-40">
+      <div className="mx-auto max-w-6xl px-5 pb-14 pt-36 md:pb-20 md:pt-44">
         <p className="text-xs font-medium tracking-[0.22em] uppercase text-primary">
           {kicker}
         </p>
