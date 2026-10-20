@@ -252,7 +252,7 @@ function getService(slug) {
 	return services.find((s) => s.slug === slug);
 }
 //#endregion
-//#region node_modules/.nitro/vite/services/ssr/assets/router-BnHE6j-p.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-BlGSicby.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var __defProp = Object.defineProperty;
@@ -531,7 +531,7 @@ function PreviewHostBridge() {
 	}, [router]);
 	return null;
 }
-var styles_default = "/assets/styles-DEekxlab.css";
+var styles_default = "/assets/styles-vDLiFvty.css";
 var APP_NAME = "P.S.C. Edilizia Moderna";
 var Route$6 = createRootRoute({
 	head: () => ({
@@ -548,7 +548,7 @@ var Route$6 = createRootRoute({
 			},
 			{
 				name: "theme-color",
-				content: "#161310"
+				content: "#0c1224"
 			}
 		],
 		links: [
@@ -572,7 +572,7 @@ var Route$6 = createRootRoute({
 			},
 			{
 				rel: "stylesheet",
-				href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Outfit:wght@300;400;500;600&display=swap"
+				href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@300;400;500;600&display=swap"
 			},
 			{
 				rel: "manifest",
@@ -595,9 +595,9 @@ var Route$6 = createRootRoute({
 		] })]
 	})
 });
-var $$splitComponentImporter$5 = () => import("./routes-DzL9edgp.mjs");
+var $$splitComponentImporter$5 = () => import("./routes-BActrypa.mjs");
 var Route$5 = createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter$5, "component") });
-var $$splitComponentImporter$4 = () => import("./chi-siamo-iODds5RT.mjs");
+var $$splitComponentImporter$4 = () => import("./chi-siamo-LH69QqkG.mjs");
 var Route$4 = createFileRoute("/chi-siamo")({
 	component: lazyRouteComponent($$splitComponentImporter$4, "component"),
 	head: () => ({ meta: [{ title: "Chi siamo — P.S.C. Edilizia Moderna" }, {
@@ -605,7 +605,7 @@ var Route$4 = createFileRoute("/chi-siamo")({
 		content: "P.S.C. Edilizia Moderna S.r.l. è un’impresa edile di Lissone. Oltre quarant’anni di cantiere in Monza e Brianza."
 	}] })
 });
-var $$splitComponentImporter$3 = () => import("./contatti-DHLMP4YA.mjs");
+var $$splitComponentImporter$3 = () => import("./contatti-1158yKHg.mjs");
 var Route$3 = createFileRoute("/contatti")({
 	component: lazyRouteComponent($$splitComponentImporter$3, "component"),
 	head: () => ({ meta: [{ title: "Contatti — P.S.C. Edilizia Moderna" }, {
@@ -613,7 +613,7 @@ var Route$3 = createFileRoute("/contatti")({
 		content: "Preventivo gratuito. Via Caravaggio 26/D, Lissone. Tel. 039 6366122 — WhatsApp 350 0298060."
 	}] })
 });
-var $$splitComponentImporter$2 = () => import("./lavori-C33rGTlG.mjs");
+var $$splitComponentImporter$2 = () => import("./lavori-aSYUjv_1.mjs");
 var Route$2 = createFileRoute("/lavori")({
 	component: lazyRouteComponent($$splitComponentImporter$2, "component"),
 	head: () => ({ meta: [{ title: "Lavori — P.S.C. Edilizia Moderna" }, {
@@ -621,7 +621,7 @@ var Route$2 = createFileRoute("/lavori")({
 		content: "Interventi residenziali di P.S.C. Edilizia Moderna a Lissone e in Brianza: ville, appartamenti, facciate e sottotetti."
 	}] })
 });
-var $$splitComponentImporter$1 = () => import("./servizi-77jn6_Ol.mjs");
+var $$splitComponentImporter$1 = () => import("./servizi-nzNmLvD1.mjs");
 var Route$1 = createFileRoute("/servizi")({
 	component: lazyRouteComponent($$splitComponentImporter$1, "component"),
 	head: () => ({ meta: [{ title: "Servizi — P.S.C. Edilizia Moderna" }, {
@@ -629,8 +629,8 @@ var Route$1 = createFileRoute("/servizi")({
 		content: "Ristrutturazioni chiavi in mano, costruzioni, isolamenti, impianti, infissi, facciate e pratiche edilizie a Lissone."
 	}] })
 });
-var $$splitNotFoundComponentImporter = () => import("./servizi._slug-CYj0oQN2.mjs");
-var $$splitComponentImporter = () => import("./servizi._slug-CxVM04lV.mjs");
+var $$splitNotFoundComponentImporter = () => import("./servizi._slug-BC3mNPGM.mjs");
+var $$splitComponentImporter = () => import("./servizi._slug-FXQI8eBs.mjs");
 var Route = createFileRoute("/servizi/$slug")({
 	component: lazyRouteComponent($$splitComponentImporter, "component"),
 	loader: ({ params }) => {

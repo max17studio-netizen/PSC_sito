@@ -1,7 +1,7 @@
 import { b as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { i as SiteShell, n as CtaBand, r as PageHero } from "./site-shell-Ci8L41W0.mjs";
-import { o as projects } from "./router-BnHE6j-p.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/lavori-C33rGTlG.js
+import { i as SiteShell, n as CtaBand, r as PageHero } from "./site-shell-BjwGOp8u.mjs";
+import { o as projects } from "./router-BlGSicby.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/lavori-aSYUjv_1.js
 var import_jsx_runtime = require_jsx_runtime();
 function Lavori() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(SiteShell, { children: [

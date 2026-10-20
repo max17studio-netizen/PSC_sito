@@ -5,79 +5,54 @@ import { i as Menu, o as ArrowUpRight, r as Phone, t as X } from "../_libs/lucid
 import { n as clsx, t as cva } from "../_libs/class-variance-authority+clsx.mjs";
 import { t as twMerge } from "../_libs/tailwind-merge.mjs";
 import { t as Slot } from "../_libs/radix-ui__react-slot.mjs";
-import { i as nav, r as company } from "./router-BnHE6j-p.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/site-shell-Ci8L41W0.js
+import { i as nav, r as company } from "./router-BlGSicby.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/site-shell-BjwGOp8u.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function cn(...inputs) {
 	return twMerge(clsx(inputs));
 }
-function Logo({ className, inverted = false }) {
+function BrandSvg({ className }) {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("svg", {
+		viewBox: "0 0 700 400",
+		className,
+		fill: "currentColor",
+		"aria-hidden": "true",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M108 176 L236 64 L364 176 L326 176 L236 102 L146 176 Z" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M304 182 L452 46 L600 182 L554 182 L452 94 L350 182 Z" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M90 140 C28 178 32 328 298 350 C528 370 676 302 680 194 C674 188 662 194 656 206 C646 288 508 342 298 326 C88 306 68 198 120 158 C110 150 100 144 90 140 Z" }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+				x: "350",
+				y: "248",
+				textAnchor: "middle",
+				fill: "currentColor",
+				fontFamily: "Libre Baskerville, Georgia, Times New Roman, serif",
+				fontStyle: "italic",
+				fontWeight: "700",
+				fontSize: "58",
+				children: "P.S.C. srl"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("text", {
+				x: "350",
+				y: "302",
+				textAnchor: "middle",
+				fill: "currentColor",
+				fontFamily: "Libre Baskerville, Georgia, Times New Roman, serif",
+				fontStyle: "italic",
+				fontWeight: "400",
+				fontSize: "38",
+				children: "edilizia moderna"
+			})
+		]
+	});
+}
+function Logo({ className, inverted = false, size = "header" }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-		className: cn("inline-flex items-center gap-3", inverted ? "text-ink-fg" : "text-fg", className),
-		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("svg", {
-			viewBox: "0 0 32 32",
-			className: "size-9 shrink-0",
-			"aria-hidden": "true",
-			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-					width: "32",
-					height: "32",
-					rx: "6",
-					className: "fill-bg"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-					x: "5",
-					y: "8",
-					width: "22",
-					height: "3",
-					className: "fill-fg"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-					x: "7",
-					y: "11",
-					width: "18",
-					height: "15",
-					className: "fill-primary"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-					x: "10",
-					y: "14",
-					width: "4",
-					height: "4",
-					className: "fill-surface"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-					x: "18",
-					y: "14",
-					width: "4",
-					height: "4",
-					className: "fill-surface"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-					x: "10",
-					y: "20",
-					width: "4",
-					height: "4",
-					className: "fill-surface"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
-					x: "18",
-					y: "20",
-					width: "4",
-					height: "4",
-					className: "fill-surface"
-				})
-			]
-		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-			className: "flex flex-col leading-none",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-				className: "font-display text-[1.15rem] font-semibold tracking-[0.18em]",
-				children: "P.S.C."
-			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-				className: cn("mt-1 text-[0.62rem] font-medium tracking-[0.22em] uppercase", inverted ? "text-ink-fg/70" : "text-muted"),
-				children: "Edilizia Moderna"
-			})]
+		className: cn("inline-flex items-center", inverted ? "text-ink-fg" : "text-primary", className),
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrandSvg, { className: cn("w-auto", size === "footer" ? "h-16 md:h-20" : "h-12 md:h-14") }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+			className: "sr-only",
+			children: "P.S.C. Edilizia Moderna"
 		})]
 	});
 }
@@ -143,7 +118,7 @@ function SiteShell({ children }) {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("header", {
 				className: cn("fixed inset-x-0 top-0 z-40 transition-[background-color,box-shadow,color] duration-200", inverted ? "bg-transparent text-ink-fg" : "bg-bg/95 text-fg shadow-[0_1px_0_0_var(--color-border)] backdrop-blur-sm"),
 				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-5 md:h-[4.5rem]",
+					className: "mx-auto flex h-[4.5rem] max-w-6xl items-center justify-between gap-4 px-5 md:h-20",
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Link, {
 							to: "/",
@@ -231,7 +206,7 @@ function SiteShell({ children }) {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(SiteFooter, {}),
 			!open ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
 				href: company.whatsapp,
-				className: "fixed bottom-5 right-5 z-30 inline-flex h-12 items-center gap-2 rounded-full bg-primary px-4 text-sm font-medium text-primary-fg shadow-[0_8px_24px_rgba(26,23,20,0.18)] transition-transform duration-150 hover:opacity-90 active:scale-[0.96]",
+				className: "fixed bottom-5 right-5 z-30 inline-flex h-12 items-center gap-2 rounded-full bg-primary px-4 text-sm font-medium text-primary-fg shadow-[0_8px_24px_rgba(12,18,36,0.22)] transition-transform duration-150 hover:opacity-90 active:scale-[0.96]",
 				"aria-label": "Scrivi su WhatsApp",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { className: "size-4" }), "WhatsApp"]
 			}) : null
@@ -246,7 +221,10 @@ function SiteFooter() {
 			children: [
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "md:col-span-5",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Logo, { inverted: true }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Logo, {
+						inverted: true,
+						size: "footer"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "mt-6 max-w-sm text-sm leading-relaxed text-ink-fg/70",
 						children: "Impresa edile a Lissone. Costruzioni, ristrutturazioni chiavi in mano e finiture in Monza e Brianza. Oltre quarant’anni di cantiere."
 					})]
@@ -349,7 +327,7 @@ function PageHero({ kicker, title, lead }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("header", {
 		className: "border-b border-border bg-surface",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-			className: "mx-auto max-w-6xl px-5 pb-14 pt-32 md:pb-20 md:pt-40",
+			className: "mx-auto max-w-6xl px-5 pb-14 pt-36 md:pb-20 md:pt-44",
 			children: [
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "text-xs font-medium tracking-[0.22em] uppercase text-primary",

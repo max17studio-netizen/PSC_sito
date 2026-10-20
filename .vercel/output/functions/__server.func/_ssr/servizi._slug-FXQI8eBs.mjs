@@ -1,9 +1,9 @@
 import { b as require_jsx_runtime, v as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { a as Check, c as ArrowLeft } from "../_libs/lucide-react.mjs";
-import { i as SiteShell, r as PageHero, t as Button } from "./site-shell-Ci8L41W0.mjs";
-import { t as ContactForm } from "./contact-form-BDfZRaFo.mjs";
-import { n as Route, s as services } from "./router-BnHE6j-p.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/servizi._slug-CxVM04lV.js
+import { i as SiteShell, r as PageHero, t as Button } from "./site-shell-BjwGOp8u.mjs";
+import { t as ContactForm } from "./contact-form-T8iIYuf-.mjs";
+import { n as Route, s as services } from "./router-BlGSicby.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/servizi._slug-FXQI8eBs.js
 var import_jsx_runtime = require_jsx_runtime();
 function Servizio() {
 	const { service } = Route.useLoaderData();

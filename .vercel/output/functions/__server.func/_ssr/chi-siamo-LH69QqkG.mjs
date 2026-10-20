@@ -1,7 +1,7 @@
 import { b as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { i as SiteShell, n as CtaBand, r as PageHero } from "./site-shell-Ci8L41W0.mjs";
-import { r as company } from "./router-BnHE6j-p.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/chi-siamo-iODds5RT.js
+import { i as SiteShell, n as CtaBand, r as PageHero } from "./site-shell-BjwGOp8u.mjs";
+import { r as company } from "./router-BlGSicby.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/chi-siamo-LH69QqkG.js
 var import_jsx_runtime = require_jsx_runtime();
 function ChiSiamo() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(SiteShell, { children: [

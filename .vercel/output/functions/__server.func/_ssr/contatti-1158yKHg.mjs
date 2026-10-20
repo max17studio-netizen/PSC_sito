@@ -1,8 +1,8 @@
 import { b as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { i as SiteShell, r as PageHero } from "./site-shell-Ci8L41W0.mjs";
-import { t as ContactForm } from "./contact-form-BDfZRaFo.mjs";
-import { r as company } from "./router-BnHE6j-p.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/contatti-DHLMP4YA.js
+import { i as SiteShell, r as PageHero } from "./site-shell-BjwGOp8u.mjs";
+import { t as ContactForm } from "./contact-form-T8iIYuf-.mjs";
+import { r as company } from "./router-BlGSicby.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/contatti-1158yKHg.js
 var import_jsx_runtime = require_jsx_runtime();
 function Contatti() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(SiteShell, { children: [

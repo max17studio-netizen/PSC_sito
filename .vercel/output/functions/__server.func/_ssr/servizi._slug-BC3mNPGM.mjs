@@ -1,6 +1,6 @@
 import { b as require_jsx_runtime, v as Link } from "../_libs/@tanstack/react-router+[...].mjs";
-import { i as SiteShell, t as Button } from "./site-shell-Ci8L41W0.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/servizi._slug-CYj0oQN2.js
+import { i as SiteShell, t as Button } from "./site-shell-BjwGOp8u.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/servizi._slug-BC3mNPGM.js
 var import_jsx_runtime = require_jsx_runtime();
 var SplitNotFoundComponent = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(SiteShell, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 	className: "mx-auto max-w-6xl px-5 py-32",
